@@ -17,4 +17,5 @@ Results
 Installation
 To run the application locally,  clone this repository with the following command.
 
-git clone git@github.com:ewtaylor/burger.git
+git@github.com:ewtaylor/burger.git
+https://ewtaylor.github.io/burger/
