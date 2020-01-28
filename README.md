@@ -1,21 +1,24 @@
-A Burger! :P
-We created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
+Burgers!:
+I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
 
-Description
--A full stack application 
--The front end is implemented with HTML/CSS, as well as elements from the Materialize framework 
--HTML templating is done with the help of Handlebars
--The backend implemented with Node.js and Express. 
+Description:
+1) A full stack application 
+2) The front end is implemented with HTML/CSS, as well as elements from the Materialize framework 
+3) HTML templating is done with the help of Handlebars
+4) The backend implemented with Node.js and Express. 
 
-Results
--The user can enter any burger name to add it to the menu
--This also adds the new burger entry into the MySQL database
--The burger entry is added as available on the menu
--The user may then eat any burger by clicking on it
+Results:
+1) The user can enter any burger name to add it to the menu
+2) This also adds the new burger entry into the MySQL database
+3) The burger entry is added as available on the menu
+4) The user may then eat any burger by clicking on it
 
 
-Installation
+Installation:
 To run the application locally,  clone this repository with the following command.
 
-git@github.com:ewtaylor/burger.git
+https://github.com/ewtaylor/burger.git
+
+OR
+
 https://ewtaylor.github.io/burger/
