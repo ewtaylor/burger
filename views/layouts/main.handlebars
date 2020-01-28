@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eat da Burger!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+    <center>
+      <div class="row">
+      <img src="assets/img/burgerimg3.jpg" alt="Burger Img">
+    <div class="jumbotron">
+    <h1>Eat-Da-Burger!</h1>      
+    <p>Choose a Burger from the list. Then devour it. <br> 
+    Or, Enter a Burger you want to eat.</p>    
+    </center>
+      <br>
+      {{{body}}}
+      <br><br>
+      <form action="burger/create" method="POST"> 
+        <!-- Text Area Input -->
+        <div class="row">
+          <!-- Empty Div to help center textarea -->
+          <div class="col-md-3"></div> 
+          <!-- Add/Submit Burger-->
+          <div class="form-group col-md-6">
+            <center><label for="new_burger" class="submitFont">Add new burger!</label></center>
+            <textarea class="form-control" type="text" columns="6" rows="1" id="new_burger required value="" name="burger_name"></textarea>
+          </div>
+          <div class="col-md-3"></div> 
+        </div>
+        <!-- Submit Button -->
+        <center>
+          <button id="submit-button" type="submit" class="btn btn-danger">Make my Burger!</button>
+        </center>
+      </form>
+      <br>
+    </div>
+  </body>
+</html> 
