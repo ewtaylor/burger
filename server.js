@@ -8,11 +8,12 @@ var PORT = process.env.PORT || 3000;
 
 var app = express();
 //Serve static content for the app 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('public'));
 // app.use(express.static('public'));
 
 // Parse application/
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json())
 
 // Handlebars
 var exphbs = require('express-handlebars');
@@ -20,8 +21,8 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
-var router = require('./controllers/burgers_controller.js');
-app.use('/', router);
+var router = require('./controllers/burgers_controllers.js');
+app.use(router);
 
 
 

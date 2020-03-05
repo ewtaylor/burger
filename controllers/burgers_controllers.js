@@ -23,7 +23,7 @@ router.post('/burger/create', function (req, res)
 {
   burger.insertOne(req.body.burger_name, function() 
   {
-    res.redirect('/index');
+    res.redirect('/index') 
   });
 });
 
@@ -37,3 +37,4 @@ router.post('/burger/eat/:id', function (req, res)
 });
 
 // Export routes
+module.exports = router
