@@ -9,7 +9,8 @@ body {
   
   .jumbotron{
       padding-top: 0;
-      background-color:transparent !important;
+      /* background-color:transparent !important; */
+      background-color: red;
   }
   
   img {
